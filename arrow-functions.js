@@ -29,3 +29,10 @@ console.log(sum1);
 const saySomething = message => console.log(message);
 saySomething('Hello there')
 
+// Returning Multiple Lines
+const returnMultipleLines = () => (
+    `<p>
+    This is a multiline string!
+    </p>`
+)
+console.log(returnMultipleLines());
