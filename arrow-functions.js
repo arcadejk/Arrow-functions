@@ -25,3 +25,7 @@ const addTwoNumbers1 = (a, b) => (a + b);
 let sum1 = addTwoNumbers1(4, 6);
 console.log(sum1);
 
+// Implicit Returns
+const saySomething = message => console.log(message);
+saySomething('Hello there')
+
