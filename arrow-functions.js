@@ -18,3 +18,10 @@ const addTwoNumbers = (a, b) => {
     }
 let sum = addTwoNumbers(3, 5);
 console.log(sum);
+
+// Single Line Arrow Function With Parameters
+//const addTwoNumbers2 = (a, b) => a + b;
+const addTwoNumbers1 = (a, b) => (a + b);
+let sum1 = addTwoNumbers1(4, 6);
+console.log(sum1);
+
